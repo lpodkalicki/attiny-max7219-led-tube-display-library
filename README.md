@@ -52,7 +52,7 @@ void MAX7219_init(void);
 
 /**
  * Display single digit at position.
- * @param position: dot position from range <0, 7>
+ * @param position: digit position from range <0, 7>
  * @param digit: value from range <0, 9>
  */
 void MAX7219_display_digit(uint8_t position, uint8_t digit);
